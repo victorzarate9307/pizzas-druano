@@ -525,3 +525,18 @@ body {
 .category-link:visited {
     color: inherit;
 }
+
+.category-link,
+.category-link:link,
+.category-link:visited,
+.category-link:hover,
+.category-link:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.category-link h3,
+.category-link p {
+    text-decoration: none !important;
+    color: inherit !important;
+}
